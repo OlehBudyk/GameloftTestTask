@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: e423ff981f4437f4f9ac35ea61856acf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameHandler: {instanceID: 0}
+  - plate1: {instanceID: 0}
+  - plate2: {instanceID: 0}
+  - plate3: {instanceID: 0}
+  - plate4: {instanceID: 0}
+  - plate5: {instanceID: 0}
+  - plate6: {instanceID: 0}
+  - plate7: {instanceID: 0}
+  - plate8: {instanceID: 0}
+  - plate9: {instanceID: 0}
+  - plate10: {instanceID: 0}
+  - plate11: {instanceID: 0}
+  - plate12: {instanceID: 0}
+  - plate13: {instanceID: 0}
+  - plate14: {instanceID: 0}
+  - plate15: {instanceID: 0}
+  - plateEmpty: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5380430404805847839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7369928239102452346}
+  - component: {fileID: 319030731275378243}
+  - component: {fileID: 6771156447053124255}
+  - component: {fileID: -78096619941069646}
+  m_Layer: 0
+  m_Name: Plate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7369928239102452346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380430404805847839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6136768, y: 0.735872, z: 0.40917975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &319030731275378243
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380430404805847839}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 144281b8dde47dd4cb4d84cdc1715a5c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.9411765, y: 0.9411765}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &6771156447053124255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380430404805847839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e423ff981f4437f4f9ac35ea61856acf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameHandler: {fileID: 0}
+  plate0: {fileID: 21300000, guid: 457a8c2bee69b9b4fb5495c316e0c466, type: 3}
+  plate1: {fileID: 21300000, guid: 81d6c79fd1b18e848a7af8d8b49a7c97, type: 3}
+  plate2: {fileID: 21300000, guid: 788c17b9af0b3ba408fc495bcf0ce967, type: 3}
+  plate3: {fileID: 21300000, guid: 9abe2d0b5fdb42148b834a8a7eccbbad, type: 3}
+  plate4: {fileID: 21300000, guid: 44d7505cd19a35d43ae8d4a65043dbb0, type: 3}
+  plate5: {fileID: 21300000, guid: 683eeeb5d9e433d4d8f0eedea4e4e35b, type: 3}
+  plate6: {fileID: 21300000, guid: 4f369021279e527468125f9db3fbfd0e, type: 3}
+  plate7: {fileID: 21300000, guid: 2c5a83122efc6e34ca5a8c5c4cd2198a, type: 3}
+  plate8: {fileID: 21300000, guid: 1194d544f8d55db4d8874c52fabc5bca, type: 3}
+  plate9: {fileID: 21300000, guid: 84dad4945e7862d489bbbeb804a7b95a, type: 3}
+  plate10: {fileID: 21300000, guid: e77d7ef0db40a0c4b9247742e5eb49ca, type: 3}
+  plate11: {fileID: 21300000, guid: 6ec311bce79e44d4c8cc89d9b5bb2323, type: 3}
+  plate12: {fileID: 21300000, guid: 7adf0fefcf54201498775e5308e09c8b, type: 3}
+  plate13: {fileID: 21300000, guid: 104ebd046698f7a499e694142ffcf075, type: 3}
+  plate14: {fileID: 21300000, guid: a71a7014883583c46af971084fff8440, type: 3}
+  plate15: {fileID: 21300000, guid: b84959dcef90fc14f956177c8d52913b, type: 3}
+--- !u!61 &-78096619941069646
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380430404805847839}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
